@@ -10,6 +10,10 @@ body {
   text-decoration: none;
 }
 
+.link a {
+  text-decoration: none;
+}
+
 /*----------------HEADER------------------*/
 
 .header {
