@@ -36,11 +36,11 @@ body {
 }
 
 .header-navigation span {
-color: #2E2F42;
+  color: #2e2f42;
 }
 
 .header-logo {
-  font-family: Raleway ; sans-serif;
+  font-family: Raleway;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
@@ -49,7 +49,7 @@ color: #2E2F42;
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #4D5AE5;
+  color: #4d5ae5;
 }
 
 .header-list {
@@ -113,9 +113,8 @@ color: #2E2F42;
   align-items: center;
   letter-spacing: 0.04em;
   color: #ffffff;
-  background-color: #4D5AE5;
+  background-color: #4d5ae5;
   cursor: pointer;
-
 }
 
 /*----------------ABOUT------------------*/
@@ -174,7 +173,7 @@ color: #2E2F42;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
-  background-color: #F4F4FD
+  background-color: #f4f4fd;
 }
 .team-list {
 }
@@ -195,7 +194,7 @@ color: #2E2F42;
   text-align: center;
   letter-spacing: 0.02em;
   color: #434455;
-  background-color: #FFFFFF
+  background-color: #ffffff;
 }
 .team-items {
 }
@@ -203,14 +202,10 @@ color: #2E2F42;
 /*----------------FOOTER_index------------------*/
 
 .footer {
-  background: #2E2F42;
+  background: #2e2f42;
 }
 
-
 /******----------------PORTFOLIO------------------******/
-
-
-
 
 /*----------------HEADER------------------*/
 .header {
@@ -228,32 +223,26 @@ color: #2E2F42;
 .header-link {
 }
 
-
 /*----------------BTN------------------*/
 
 .btn {
 }
 .btn-list-all {
-  background: #404BBF;
-  color: #FFFFFF;
+  background: #404bbf;
+  color: #ffffff;
   cursor: pointer;
 }
 
-
-
 .btn-list {
-  background: #F4F4FD;
-  color: #4D5AE5;
+  background: #f4f4fd;
+  color: #4d5ae5;
   cursor: pointer;
-  }
-
+}
 
 .list {
 }
 
 /*----------------PORTFOLIO------------------*/
-
-
 
 .portfolio-list {
 }
@@ -263,28 +252,26 @@ color: #2E2F42;
 }
 .portfolio-title {
   font-family: inherit;
-font-style: normal;
-font-weight: 500;
-font-size: 20px;
-line-height: calc(24 / 20);
-letter-spacing: 0.02em;
-color: #2E2F42;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: calc(24 / 20);
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 .portfolio-text {
   font-family: inherit;
-font-style: normal;
-font-size: 16px;
-line-height: calc(24 / 16);
-letter-spacing: 0.02em;
-color: #434455;
+  font-style: normal;
+  font-size: 16px;
+  line-height: calc(24 / 16);
+  letter-spacing: 0.02em;
+  color: #434455;
 }
-
 
 /*----------------PORTFOLIO_FOOTER------------------*/
 
 .portfolio-footer {
-  background: #2E2F42;
+  background: #2e2f42;
 }
 .portfolio-foter-text {
 }
-
