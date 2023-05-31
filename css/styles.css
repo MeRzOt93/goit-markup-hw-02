@@ -40,7 +40,7 @@ body {
 }
 
 .header-logo {
-  font-family: Raleway; sans-serif;
+  font-family: Raleway, sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
@@ -174,7 +174,7 @@ body {
   background-color: #f4f4fd;
 }
 .team-list {
-  background-color: #FFFFFF
+  background-color: #ffffff;
 }
 .team-item {
 }
@@ -205,7 +205,7 @@ body {
 }
 
 .footer-logo {
-  font-family: Raleway; sans-serif;
+  font-family: Raleway, sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
@@ -216,16 +216,16 @@ body {
 }
 
 .footer span {
-  color: #f4f4fd
+  color: #f4f4fd;
 }
 
 .footer-text {
-  font-family: 'Roboto'; sans-serif;
-font-style: normal;
-font-size: 16px;
-line-height: calc( 24 /16 );
-letter-spacing: 0.02em;
-color: #F4F4FD
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  line-height: calc(24 / 16);
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
 }
 
 /******----------------PORTFOLIO------------------******/
@@ -236,17 +236,13 @@ body {
   background-color: #ffffff;
 }
 
-
-
-
-
 /*----------------HEADER------------------*/
-.header {
+.portfolio-header {
 }
-.header-navigation {
+.portfolio-header-navigation {
 }
 .header-logo {
-  font-family: Raleway; sans-serif;
+  font-family: Raleway, sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
@@ -257,11 +253,11 @@ body {
 }
 .link {
 }
-.header-list {
+.portfolio-header-list {
 }
 .list {
 }
-.header-link {
+.portfolio-header-link {
 }
 
 /*----------------BTN------------------*/
@@ -316,9 +312,9 @@ body {
 }
 .portfolio-foter-text {
   font-family: inherit;
-font-style: normal;
-font-size: 16px;
-line-height: calc(24 / 16);
-letter-spacing: 0.02em;
-color: #F4F4FD;
+  font-style: normal;
+  font-size: 16px;
+  line-height: calc(24 / 16);
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
 }
