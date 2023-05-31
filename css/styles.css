@@ -44,8 +44,7 @@ body {
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
-  line-height: calc(21 / 18);
-  align-items: center;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
@@ -74,12 +73,20 @@ body {
 }
 
 .address {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
 
 .address-list {
 }
 
 .address-information {
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -97,7 +104,7 @@ body {
 .hero-title {
   font-weight: 700;
   font-size: 56px;
-  line-height: calc(60 / 56);
+  line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
@@ -108,7 +115,6 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  align-items: center;
   letter-spacing: 0.04em;
   color: #ffffff;
   background-color: #4d5ae5;
@@ -162,6 +168,7 @@ body {
 /*----------------TEAM------------------*/
 
 .team {
+  background-color: #f4f4fd;
 }
 .team-title {
   font-weight: 700;
@@ -189,7 +196,7 @@ body {
 .team-item-text {
   font-weight: 400;
   font-size: 16px;
-  line-height: calc(24 / 16);
+  line-height: 1.5;
   text-align: center;
   letter-spacing: 0.02em;
   color: #434455;
@@ -200,30 +207,31 @@ body {
 
 /*----------------FOOTER_index------------------*/
 
-.footer {
+.footer-html {
   background: #2e2f42;
 }
 
-.footer-logo {
+.footer-html-logo {
   font-family: Raleway, sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
-  line-height: calc(21 / 18);
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  text-decoration: none;
 }
 
-.footer span {
+.footer-html-span {
   color: #f4f4fd;
 }
 
-.footer-text {
+.footer-html-text {
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-size: 16px;
-  line-height: calc(24 / 16);
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
 }
@@ -236,7 +244,7 @@ body {
   background-color: #ffffff;
 }
 
-/*----------------HEADER------------------*/
+/*----------------PORTFOLIO_HEADER------------------*/
 .portfolio-header {
 }
 .portfolio-header-navigation {
@@ -246,10 +254,13 @@ body {
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
-  line-height: calc(21 / 18);
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+}
+.portfolio-header-span {
+  color: #2e2f42;
 }
 .link {
 }
@@ -258,22 +269,63 @@ body {
 .list {
 }
 .portfolio-header-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+/*----------------PORTFOLIO_ADDRESS------------------*/
+.potfolio-adress-link:hover {
+  color: #404bbf;
+}
+
+.potfolio-adress-link:focus {
+  color: #404bbf;
+}
+.potfolio-address {
+}
+.potfolio-address-list {
+}
+.list {
+}
+.potfolio-adress-link {
+  font-family: "Roboto";
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.link {
 }
 
 /*----------------BTN------------------*/
 
 .btn {
 }
-.btn-list-all {
+.btn-item-all {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   background: #404bbf;
   color: #ffffff;
   cursor: pointer;
 }
 
-.btn-list {
-  background: #f4f4fd;
-  color: #4d5ae5;
+.btn-item {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  background-color: #f4f4fd;
   cursor: pointer;
+  color: #4d5ae5;
 }
 
 .list {
@@ -310,7 +362,21 @@ body {
 .portfolio-footer {
   background: #2e2f42;
 }
-.portfolio-foter-text {
+.portfolio-footer-logo {
+  font-family: Raleway, sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+  text-decoration: none;
+}
+.portfolio-footer-span {
+  color: #f4f4fd;
+}
+.portfolio-footer-text {
   font-family: inherit;
   font-style: normal;
   font-size: 16px;
