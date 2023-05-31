@@ -108,7 +108,6 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  display: flex;
   align-items: center;
   letter-spacing: 0.04em;
   color: #ffffff;
@@ -211,7 +210,6 @@ body {
   font-weight: 800;
   font-size: 18px;
   line-height: calc(21 / 18);
-  align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
@@ -253,7 +251,6 @@ body {
   font-weight: 800;
   font-size: 18px;
   line-height: calc(21 / 18);
-  align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
@@ -318,4 +315,10 @@ body {
   background: #2e2f42;
 }
 .portfolio-foter-text {
+  font-family: inherit;
+font-style: normal;
+font-size: 16px;
+line-height: calc(24 / 16);
+letter-spacing: 0.02em;
+color: #F4F4FD;
 }
