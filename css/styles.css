@@ -86,6 +86,9 @@ body {
 }
 
 .address-information {
+}
+
+.address-information-item {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
@@ -110,6 +113,10 @@ body {
   color: #ffffff;
 }
 
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: #404bbf;
+}
 .hero-btn {
   font-family: inherit;
   font-weight: 500;
@@ -178,13 +185,11 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
-  background-color: #f4f4fd;
-}
-.team-list {
   background-color: #ffffff;
 }
-.team-item {
+.team-list {
 }
+
 .team-subtitle {
   font-weight: 500;
   font-size: 20px;
@@ -193,7 +198,7 @@ body {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.team-item-text {
+.team-items-text {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -203,6 +208,7 @@ body {
   background-color: #ffffff;
 }
 .team-items {
+  background-color: #ffffff;
 }
 
 /*----------------FOOTER_index------------------*/
@@ -245,6 +251,15 @@ body {
 }
 
 /*----------------PORTFOLIO_HEADER------------------*/
+
+.portfolio-header-link:hover {
+  color: #404bbf;
+}
+.portfolio-header-link:focus {
+  color: #404bbf;
+}
+
+
 .portfolio-header {
 }
 .portfolio-header-navigation {
@@ -291,6 +306,11 @@ body {
 .list {
 }
 .potfolio-adress-link {
+}
+.link {
+}
+
+.potfolio-adress-item {
   font-family: "Roboto";
   font-style: normal;
   font-size: 16px;
@@ -298,15 +318,13 @@ body {
   letter-spacing: 0.02em;
   color: #434455;
 }
-.link {
-}
 
 /*----------------BTN------------------*/
 
 .btn {
 }
 .btn-item-all {
-  font-family: "Roboto";
+  font-family: "Roboto"; sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -317,7 +335,7 @@ body {
 }
 
 .btn-item {
-  font-family: "Roboto";
+  font-family: "Roboto"; sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -344,7 +362,7 @@ body {
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
-  line-height: calc(24 / 20);
+  line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
@@ -352,7 +370,7 @@ body {
   font-family: inherit;
   font-style: normal;
   font-size: 16px;
-  line-height: calc(24 / 16);
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
 }
