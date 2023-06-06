@@ -188,6 +188,7 @@ body {
   background-color: #ffffff;
 }
 .team-list {
+  background-color: #ffffff;
 }
 
 .team-subtitle {
@@ -259,7 +260,6 @@ body {
   color: #404bbf;
 }
 
-
 .portfolio-header {
 }
 .portfolio-header-navigation {
@@ -269,7 +269,7 @@ body {
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.17;
+  line-height: calc(20 / 18);
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
@@ -292,26 +292,27 @@ body {
 }
 
 /*----------------PORTFOLIO_ADDRESS------------------*/
-.potfolio-adress-link:hover {
+.portfolio-adress-link:hover {
   color: #404bbf;
 }
 
-.potfolio-adress-link:focus {
+.portfolio-adress-link:focus {
   color: #404bbf;
 }
-.potfolio-address {
+.portfolio-address {
+  font-style: normal;
 }
-.potfolio-address-list {
+.portfolio-address-list {
 }
 .list {
 }
-.potfolio-adress-link {
+.portfolio-adress-link {
 }
 .link {
 }
 
-.potfolio-adress-item {
-  font-family: "Roboto";
+.portfolio-adress-item {
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-size: 16px;
   line-height: 1.5;
@@ -323,19 +324,15 @@ body {
 
 .btn {
 }
-.btn-item-all {
-  font-family: "Roboto"; sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
+.btn-item:hover,
+.btn-item:focus {
   background: #404bbf;
   color: #ffffff;
   cursor: pointer;
 }
 
 .btn-item {
-  font-family: "Roboto"; sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
