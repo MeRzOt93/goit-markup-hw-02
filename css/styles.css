@@ -98,6 +98,11 @@ body {
   color: #434455;
 }
 
+.address-information-item:hover,
+.address-information-item:focus {
+  color: #404bbf;
+}
+
 /*----------------HERO------------------*/
 
 .hero {
@@ -318,6 +323,11 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+}
+
+.portfolio-adress-item:hover,
+.portfolio-adress-item:focus {
+  color: #404bbf;
 }
 
 /*----------------BTN------------------*/
